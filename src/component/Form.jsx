@@ -50,16 +50,16 @@ function Form() {
       <p className="title">Get In Touch</p>
       <div className="input-box">
         <input type="text" name='name' required />
-        <label>Name *</label>
+        <label>Name</label>
 
       </div>
       <div className="input-box">
         <input type="text" id="email" name='email' defaultValue={email} onChange={(e) => setEmail(e.target.value)} required />
-        <label>Email *</label>
+        <label>Email</label>
       </div>
       <div className="input-box">
         <input type="number" name='number' required />
-        <label>Number *</label>
+        <label>Number</label>
       </div>
 
       <div className="input-box">
